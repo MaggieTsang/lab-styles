@@ -7,4 +7,7 @@
     <string name="label3">Label C</string>
     <string name="value3">A little bit more knowledge</string>
     <string name="logoDescription">I School Logo</string>
+
+    <string name="textWidthHeight">wrap_content</string>
+    <string name="labelStyle">bold</string>
 </resources>

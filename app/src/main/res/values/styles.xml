@@ -1,5 +1,28 @@
 <resources>
 
+    <style name="TextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">@string/textWidthHeight</item>
+        <item name="android:layout_height">@string/textWidthHeight</item>
+    </style>
+
+    <style name="TextStyle.Label">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Label.Gold">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MediaButton" >
+        <item name="android:textSize">22sp</item>
+    </style>
+
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
